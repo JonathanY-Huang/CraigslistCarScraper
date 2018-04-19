@@ -1,4 +1,4 @@
-# CraigslistCarScraper
+# Craigslist Car Scraper
 A simple python script that extracts information from Craigslist car ads and exports it into a google sheet. The Craigslist Car Scraper extracts the price, brand, model, year, location, and number of miles. 
 
 ## Instalation
@@ -23,7 +23,7 @@ yearDecending|Sorts the list by year from greatest to least
 brand|Sorts the list by brand
 location|Sorts the list by location
 
-For example: "python carScrapers.py priceAccending" sorts the list from least to greatest price
+For example: "python CraigslistCarScraper.py priceAccending" sorts the list from least to greatest price
 
 ### Exceptions
 Sometimes a Craigslist posting will be in an unusual format or not have all the information listed. In this case the script will print " *insert url here* needs more information"
