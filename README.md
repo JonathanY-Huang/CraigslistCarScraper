@@ -1,7 +1,7 @@
 # Craigslist Car Scraper
 A simple python script that extracts information from Craigslist car ads and exports it into a google sheet. The Craigslist Car Scraper extracts the price, brand, model, year, location, and number of miles. 
 
-## Instalation
+## Installation
 The Craigslist Car Scraper uses python2 and the following packages:
 * Gspread
 * Oauthclient2
