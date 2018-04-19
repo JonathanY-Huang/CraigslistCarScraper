@@ -28,4 +28,4 @@ For example: "python CraigslistCarScraper.py priceAccending" sorts the list from
 ### Exceptions
 Sometimes a Craigslist posting will be in an unusual format or not have all the information listed. In this case the script will print " *insert url here* needs more information"
 
-![Image of error](https://imgur.com/qOLVgrO)
+![Image of error](https://i.imgur.com/qOLVgrO.png)
