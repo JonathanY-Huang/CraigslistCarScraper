@@ -18,22 +18,23 @@ worksheet = sh.get_worksheet(0)
 
 #put craigslist URLs here
 listings = []
+
 class car:
 	def __init__(self,url):
-		self.url=url
-		self.price=''
-		self.model=''
-		self.brand=''
-		self.miles=''
-		self.location=''
-		self.year=''
-		self.working=True
+		self.url = url
+		self.price = ''
+		self.model = ''
+		self.brand = ''
+		self.miles = ''
+		self.location = ''
+		self.year = ''
+		self.working = True
 	def getPrice(self):
 		return int(self.price[1:])
 
 cars = []
 brands = ['BMW', 'TOYOTA', 'HONDA', 'HYUNDAI', 'FORD', 'MAZDA', 'NISSAN']
-incomplete = []
+
 row = 2
 for listing in listings:
 	cars.append(car(listing))
